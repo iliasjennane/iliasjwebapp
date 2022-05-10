@@ -20,6 +20,7 @@ namespace iliasjwebapp.Controllers
 
         public IActionResult Index()
         {
+            int iterator = 0;
             return View();
         }
 
